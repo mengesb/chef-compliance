@@ -3,8 +3,8 @@ maintainer 'Brian Menges'
 maintainer_email 'mengesb@users.noreply.github.com'
 license 'Apache 2.0'
 description 'Installs/Configures chef-compliance'
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '0.1.0'
+long_description 'Installs/Configures chef-compliance'
+version '0.1.1'
 
 depends 'chef-ingredient', '>= 0.12.0'
 

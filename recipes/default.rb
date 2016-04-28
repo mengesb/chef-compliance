@@ -17,6 +17,7 @@
 chef_ingredient 'compliance' do
   channel node['chef-compliance']['channel'].to_sym
   version node['chef-compliance']['version']
+  accept_license node['chef-compliance']['accept_license']
   package_source node['chef-compliance']['package_source']
   action :upgrade
 end

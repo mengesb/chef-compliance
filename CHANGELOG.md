@@ -3,6 +3,11 @@ chef-compliance CHANGELOG
 
 This file is used to list changes made in each version of the chef-compliance cookbook.
 
+0.1.1
+-----
+- [Brian Menges](https://github.com/mengesb) - Add `accept_license` attribute, default to `false`. Must be changed to `true` for explicit licese acceptance
+- [Brian Menges](https://github.com/mengesb) - Remove ruby IO.read from long_description in [metadata.rb](metadata.rb)
+
 0.1.0
 -----
 - [Brian Menges](https://github.com/mengesb) - Initial release of chef-compliance

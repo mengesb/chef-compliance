@@ -64,6 +64,12 @@ Attributes
     <td>Arbitrary config to add to chef-compliance.rb</td>
     <td><tt>{}</tt></td>
   </tr>
+  <tr>
+    <td><tt>['chef-compliance']['accept_license']</tt></td>
+    <td>Boolean</td>
+    <td>Change to true to accept license</td>
+    <td><tt>false</tt></td>
+  </tr>
 </table>
 
 Usage
